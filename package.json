@@ -1,0 +1,13 @@
+{
+  "name": "exco-portfolio-sync",
+  "version": "1.0.0",
+  "description": "ExCo Account Team Portfolio — Salesforce sync",
+  "scripts": {
+    "sync": "node salesforce-sync.js",
+    "start": "npx serve -s . -l 3000"
+  },
+  "dependencies": {
+    "jsforce": "^1.11.1",
+    "dotenv": "^16.4.5"
+  }
+}
